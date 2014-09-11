@@ -1,11 +1,12 @@
 @charset "utf-8";
-td{
+.title{
+	font-family:Verdana;
+	size:30px;
+	text-align:auto;
+}
+img{
 	height:300px;
 	width:300px;
 	border: black solid;
 }
-a{
-	height:300px;
-	width:300px;
-	border: black solid;
 }
