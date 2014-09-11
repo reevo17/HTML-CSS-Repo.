@@ -2,11 +2,18 @@
 .title{
 	font-family:Verdana;
 	size:30px;
-	text-align:auto;
+	text-align:center;
 }
 img{
 	height:300px;
 	width:300px;
 	border: black solid;
 }
+img:hover{
+	height:301px;
+	width:301px;
+	border: gray solid;
+}
+#iloveyou{
+	colspan:3
 }
