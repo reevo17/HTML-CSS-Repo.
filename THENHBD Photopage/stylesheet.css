@@ -1,13 +1,27 @@
 @charset "utf-8";
 .title{
 	font-family:Verdana;
+	color:white;
 	size:30px;
 	text-align:center;
 }
+
+.audio{
+	attachment:fixed;	
+}
+body{
+	background-color:#000000;
+	background-image:url(eyeloveyou.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	}
+
 img{
 	height:300px;
 	width:300px;
 	border: black solid;
+	padding:0px;
 }
 
 img:hover{
@@ -20,11 +34,16 @@ img:hover{
 	height:500px;
 	width:1000px;
 }
-
+<!-- Container at the top of the page, first DIV-->
 .container{
 	
+<!-- Navigation-->
 }
 .nav{
-
+	color:white;
 }
 
+.p1{
+	text-align:center;
+	font-family:serif;	
+}
