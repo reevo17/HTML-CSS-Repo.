@@ -9,11 +9,22 @@ img{
 	width:300px;
 	border: black solid;
 }
+
 img:hover{
-	height:301px;
-	width:301px;
+	height:300px;
+	width:300px;
 	border: gray solid;
 }
+
 #iloveyou{
-	colspan:3
+	height:500px;
+	width:1000px;
 }
+
+.container{
+	
+}
+.nav{
+
+}
+
