@@ -33,14 +33,15 @@ img:hover{
 #iloveyou{
 	height:500px;
 	width:1000px;
+	border-radius:10px;
 }
 <!-- Container at the top of the page, first DIV-->
 
-.nav{
+.nav a{
 
 }
 
-.container{
+.container a{
 	color:white;
 	height:auto;
 	width:40px;
@@ -50,7 +51,7 @@ img:hover{
 
 .p1{
 	text-align:center;
-	font-family:serif;	
+	font-family:Arial;	
 }
 
 li{
