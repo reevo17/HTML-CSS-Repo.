@@ -35,15 +35,32 @@ img:hover{
 	width:1000px;
 }
 <!-- Container at the top of the page, first DIV-->
-.container{
-	
-<!-- Navigation-->
-}
+
 .nav{
+
+}
+
+.container{
 	color:white;
+	height:auto;
+	width:40px;
+	background-color:gray;
+	border: solid #323232;
 }
 
 .p1{
 	text-align:center;
 	font-family:serif;	
+}
+
+li{
+	
+}
+
+div{
+	
+	
+}
+a{
+	color:white;
 }
