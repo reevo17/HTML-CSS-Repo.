@@ -11,9 +11,8 @@
 }
 .header{
 	clear:both;
-	margin-top:18px;
+	margin-top:15px;
 	position:fixed;
-	display:inline;
 	width:100%;
 	background-color:black;
 }
@@ -21,21 +20,49 @@
 	width:100%;
 	z-index:1;
 	position:fixed;
-	margin-top:30px;
+	margin-top:15px;
+	background-color:black;
+	border-radius:3px;
+	margin-right:30px;
+	margin-left:30px;
+}
+.aboutaudio{
+	width:100%;
+	z-index:1;
+	position:fixed;
+	margin-top:0px;
+	background-color:black;
+	border-radius:3px;
+	margin-right:30px;
+	margin-left:30px;
+}
+.aboutcontainer a{
+	position:fixed;
+	display:inline;
+	background-color:black;
+	width:100%;
+	margin:auto;
 }
 .container{
 	position:fixed;
 	display:inline;
+	background-color:black;
+	width:100%;
+	margin-top:-16px;
 }
 .container a{
 	color:white;
 	height:auto;
 	width:40px;
-	background-color:gray;
-	border: solid #323232;
-	border-radius:4px;
+	background-color:#383838 ;
+	border: solid #383838 ;
+	border-radius:5px;
 	text-decoration:none;
+	padding:5px;
 	
+}
+.container a:hover{
+	border-color:black;	
 }
 .container li{
 	padding:4px;
@@ -44,7 +71,7 @@
 	font-family: Arial;
 	
 }
-
+/*Body for all pages! Mainly for the main page */
 body{
 	background-color:#000000;
 	background-image:url(http://i.imgur.com/qfQ0ndL.png);
@@ -53,7 +80,7 @@ body{
 	background-attachment:fixed;
 	}
 
-img{
+table img{
 	height:310px;
 	width:310px;
 	border: black solid;
@@ -129,11 +156,28 @@ a{
 .ap1{
 	text-align:center;
 	font-family:Arial;	
-	color:white;	
+	color:white;
+	margin:auto;	
 }
 #about{
 	width:auto;
 }
+/*Navigation for About Page*/
 .aboutnav{
 	text-color:white;
+}
+
+/* Body for I Love You Page */
+#ilybody{
+	background-image:url(	http://i.imgur.com/11gCXMy.jpg);
+	background-image marg
+	
+}
+#ilybodyimg{
+	
+	
+}
+#ilybodyimg:hover{
+	border:none;
+	
 }
