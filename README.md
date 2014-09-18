@@ -1,4 +1,5 @@
-JSPracticeRepository
+HTML/CSS Personal Folder
 ====================
 
-Practice Javascript for A.Salcido Repository
+This repository is for personal projects and other items to share with friends.
+A.Salcido
