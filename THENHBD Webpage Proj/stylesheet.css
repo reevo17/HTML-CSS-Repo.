@@ -170,13 +170,11 @@ a{
 /* Body for I Love You Page */
 #ilybody{
 	background-image:url(	http://i.imgur.com/11gCXMy.jpg);
+	background-image marg
+	
 }
 #ilybodyimg{
-	margin: auto;
-	height: 600px;
-	width:800px;
-	opacity:0.3;
-	margin:auto
+	
 	
 }
 #ilybodyimg:hover{
