@@ -14,18 +14,19 @@
 	position:fixed;
 	width:100%;
 }
+/*AUDIO PLAYER*/
 .audio{
 	width:100%;
 	position:fixed;
 	top:55px;
 }
-
+/*Adds borders and dimensions to make embedded videos display properly*/
 .video-container{
     position: relative;
-    width: 40%;
-    padding-top: 22.5%;
-    height: 0;
-    left: 30%;
+    width: 75%;
+    padding-top: 40%;
+    height: 0%;
+    left: 15%;
 }
 
 .video-embed{
