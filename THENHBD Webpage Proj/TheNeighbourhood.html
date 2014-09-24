@@ -2,18 +2,42 @@
 <html>
 <head>
 	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link type="text/javascript">
 	<title>Welcome To...</title>
 </head>
 <body>
     <!--NAVIGATION HEADER-->
 <div class="header">
 	<div class="navbar">
-		<ul>
-			<li><a href="http://instagram.com/__reevo">Reevo</a></li>
-			<li><a href="http://thenbhd.com/us/">THENBHD Official Website(US)</a></li>
-            <li><a href="musicvideos.html">Music Videos</a>
-			<li><a href="about.html">About</a></li>
-		</ul>
+		<ul id="sddm">
+    <li><a href="#" 
+        onmouseover="mopen('m1')" 
+        onmouseout="mclosetime()">Reevo</a>
+        <div id="m1" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="#">THENBHD Official Website</a>
+        <a href="#">Music Videos</a>
+        <a href="#">Lyrics</a>
+        </div>    <li><a href="#" 
+        onmouseover="mopen('m2')" 
+        onmouseout="mclosetime()">Download</a>
+        <div id="m2" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="#">ASP Server-side</a>
+        <a href="#">Pulldown navigation</a>
+        <a href="#">AJAX Drop Submenu</a>
+        <a href="#">DIV Cascading </a>
+        </div>
+    </li>
+    <li><a href="#">Order</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+    </li>
+
+<div style="clear:both"></div>
 	</div>
 
 	<audio title="I tried to be $omeone else..." controls class="audio" volume="75%"> <!-- autoplayREMOVED FOR MY SAKE--><!--Creates a control panel, but autoplays-->
