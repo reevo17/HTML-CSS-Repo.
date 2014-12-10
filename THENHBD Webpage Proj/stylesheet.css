@@ -2,6 +2,7 @@
 /*Initially every item unless Id'd or Class'd has the font family of Arial*/
 *{
 	font-family:arial;
+	text-color:white;
 }
 .title{
 	font-family:Verdana;
@@ -102,12 +103,16 @@ margin-bottom: 2%;
     position: relative;
 }
 
-div#imagegrid{
+#jesse{
+border: 5px blue solid;
+height:100px;
+width:100px;
 position: relative;
 left: 20%;
 width:60%;
 padding-top: 5%;
 z-index:5;
+color:white;
 }
 
 div#griditemleft{
@@ -204,4 +209,7 @@ left: -30%;
 }
 img#gimge{
 width: 100%
+}
+.slide{
+	margin-left:100%;	
 }

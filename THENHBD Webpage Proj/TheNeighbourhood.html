@@ -2,7 +2,12 @@
 <html>
 <head>
 	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
-    <link type="text/javascript">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	$("#jesse").click(function(){
+		$(this).hide();
+	});
+	</script>
 	<title>Welcome To...</title>
 </head>
 <body>
@@ -17,70 +22,18 @@
 		</ul>
 	</div>
 
-	<audio title="I tried to be $omeone else..." controls class="audio" volume="75%"> <!-- autoplayREMOVED FOR MY SAKE--><!--Creates a control panel, but autoplays-->
+	<audio title="I tried to be $omeone else..." controls class="audio" volume="75%"> <!-- REMOVED FOR MY SAKE--><!--Creates a control panel, but autoplays-->
 	<source src="audio2.mp3" type="audio/mpeg">Your browser does not support the audio element. <!-- If the browser doesn't support mp3--></audio> 
 </div>
  <!--MAIN BANNER-->
 <div id="content">
-	<a href=""><img id="banner" src="http://i.imgur.com/vbvHnk2.png"></a>
+	<img id="banner" src="http://i.imgur.com/vbvHnk2.png">
 
 <div id="imagegrid">
-	<!-- Row 1 -->
-	<div id="griditemleft" class="grid">
-		<!-- Empty -->
-	</div>
-	<div id="griditemmid" class="grid">
-		<a href="http://www.last.fm/music/The+Neighbourhood/I+Love+You."><img id="gimga" class="gridimg" src="http://i.imgur.com/8rXDYZk.png"></a>
-	</div>
-	<div id="griditemright" class="grid">
-		<a href="http://instagram.com/z_flexing"><img id="gimgb" class="gridimg" src="http://www1.pictures.zimbio.com/gi/Zack+Abels+24th+Annual+KROQ+Almost+Acoustic+ENjP46I-xD2l.jpg"></a>
-	</div>
+    <div id="jesse">
+        CLICK ME
 
-	<!-- Row 2 -->
-	<div id="griditemleft" class="grid">
-		<a href="http://www.pinterest.com/explore/jesse-rutherford/"><img id="gimgc" class="gridimg" src="http://fluffpot.files.wordpress.com/2014/05/tumblr_mxb5ftvhpg1s0eyvao1_1280.jpg"/></a>
 	</div>
-	<div id="griditemmid" class="grid">
-		<!-- Empty -->
-	</div>
-	<div id="griditemright" class="grid">
-		<a href="http://www.101x.com/sites/g/files/exi636/f/201406/The-Neighbourhood.jpg"><img id="gimgd" class="gridimg" src="https://33.media.tumblr.com/682d9eb0009c2d9c007eb2ebeb22511d/tumblr_n5x92uf8xz1r5zjv2o3_500.jpg"/></a>
-	</div>
-	
-	<!-- Row 3 -->
-	<div id="griditemleft" class="grid">
-		<a href="http://www.justinbettman.com/blog/wp-content/uploads/2013/03/the-neighbourhood-2-.jpg"><img id="gimgc" class="gridimg" src="https://31.media.tumblr.com/21e925ec9d5c4c320a37ccbdbb0d7bf3/tumblr_inline_myyhy1cYei1rp30ey.jpg"/></a>
-	</div>
-	<div id="griditemmid" class="grid">
-		<a href="http://www.last.fm/music/The+Neighbourhood/The+Love+Collection"><img id="gimga" class="gridimg" src="http://i.imgur.com/92Tv1vY.jpg"/></a>
-	</div>
-	<div id="griditemright" class="grid">
-		<!-- Empty -->
-	</div>
-	
-	<!-- Row 4 -->
-	<div id="griditemleft" class="grid">
-		<a href="http://www.tumblr.com/tagged/jeremy-freedman"><img id="gimge" class="gridimg" src="http://wwwimage.cbsstatic.com/base/files/styles/596xh/public/104233_d0622.jpg"></a>
-	</div>
-	<div id="griditemmid" class="grid">
-		<a href=""><img id="gimga" class="gridimg" src="http://i.imgur.com/Dqv8kUz.jpg"/></a>
-	</div>
-	<div id="griditemright" class="grid">
-		<a href="http://instagram.com/mikeymargott"><img id="gimge" class="gridimg" src="http://wwwimage.cbsstatic.com/base/files/styles/596xh/public/104233_d0887.jpg"/></a>
-	</div>
-	
-	<!-- Row 5 -->
-	<div id="griditemleft" class="grid">
-		<a href=""><img id="gimga" class="gridimg" src="http://i.imgur.com/opgGjb8.jpg"></a>
-	</div>
-	<div id="griditemmid" class="grid">
-		<a href="http://www.last.fm/music/The+Neighbourhood/I%27m+Sorry..."><img id="gimga" class="gridimg" src="http://blogs.kcrw.com/musicnews/wp-content/uploads/2012/05/neighbourhood-house.jpg"></a>
-	</div>
-	<div id="griditemright" class="grid">
-		<a href=""><img id="gimga" class="gridimg" src="http://i.imgur.com/i8zVwPr.gif"/></a>
-	</div>
-	
-
 </div>
 
 <div id="divp">
@@ -96,7 +49,7 @@
 
 
 <!-- Footer -->
-<div class="footer">
+<div id="slide">
 	<br><br><br><br><br><br><p>
 		<h3 id="meeth3">MEET YOUR NEIGHBO(U)RS</h3>
 		<ul>
