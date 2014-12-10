@@ -3,6 +3,26 @@
 <head>
 <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 <title>About</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("img").hover(function(){
+			$(this).animate({
+				height: '+=10px',
+				width: '+=10px',
+				opacity: '-=0.3'
+			},
+			function(){
+			$(this).animate({
+				height: '-=10px',
+				width: '-=10px',
+				opacity: '+=0.3'
+				});
+			});
+		});
+	});
+	
+	</script>
 </head>
 
 <body>
@@ -18,7 +38,7 @@ Your browser does not support the audio element. <!-- If the browser doesn't sup
             
             
 	<p class="ap1">This website was created as personal project by Reevo.</p>
-	<p style="margin-top:50px"class="ap1">GIve me another day</p>
+	<p style="margin-top:50px"class="ap1">Ju$t another d(a)y</p>
     <p style="margin-top:50px"class="ap1"><img style="border-radius:40px; border:black solid"src="http://i.imgur.com/fJF8n2m.gif"/></p>
     <p style="margin-top:50px"class="ap1"><a href="theneighbourhood.html">BACK TO MAIN SITE</a></p>
     <p style="margin-top:50px"class="ap1"> All pictures have been uploaded to an image hosting website<br>then linked to in HTML</p>
